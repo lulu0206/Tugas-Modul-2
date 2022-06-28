@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<LinearLayout
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:layout_height="72dp"
+        android:layout_width="72dp"
+        app:srcCompat="@drawable/foto"
+        android:baselineAlignBottom="false"
+        android:layout_weight="0.2"
+        android:id="@+id/iv_foto_order"/>
+
+
+    -<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_weight="0.7">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/tv_foto_filename"
+        android:text="TextView"
+        android:minLines="1"
+        android:maxLines="3"
+        android:maxLength="50"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/tv_foto_order_ukuran"
+        android:text="TextView"/>
+
+
+    -<LinearLayout
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <Button
+        android:layout_height="48dp"
+        android:layout_width="24dp"
+        android:layout_weight="1"
+        android:id="@+id/btn_dec_foto_num"
+        android:text="-"
+        android:height="48dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/tv_foto_num"
+        android:text="1"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_height="48dp"
+        android:layout_width="24dp"
+        android:layout_weight="1"
+        android:id="@+id/btn_inc_foto_num"
+        android:text="+"/>
+
+</LinearLayout>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/tv_sub_price"
+        android:text="Subtotal: "
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+</LinearLayout>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="0.1"
+        android:id="@+id/btn_del_foto_order"
+        android:text="X"
+        android:backgroundTint="#c62828"
+        android:width="24dp"/>
+
+</LinearLayout>
+
+</LinearLayout>

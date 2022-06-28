@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="rv_order_foto" type="id">rvorderfoto</item>
+    <item name="tv_total_harga" type="id">tvtotalharga</item>
+    <item name="tv_keranjang_kosong" type="id">tvkeranjangkosong</item>
+</resources>

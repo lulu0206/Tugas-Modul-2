@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/iv_foto_item"
+        android:layout_width="190dp"
+        android:layout_height="315dp"
+        app:srcCompat="@drawable/foto"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/tv_filename"
+        android:text="@string/textview"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_cetak"
+        android:text="@string/cetak"
+        android:layout_margin="2dp"/>
+
+
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/ll_ukuran">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_ukuran3r"
+        android:text="@string/_3r"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_ukuran4r"
+        android:text="@string/_4r"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_ukuran8r"
+        android:text="@string/_8r"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_ukuran10r"
+        android:text="@string/_10r"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        tools:ignore="ButtonStyle" />
+
+</LinearLayout>
+
+</LinearLayout>
